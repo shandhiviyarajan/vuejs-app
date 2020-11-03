@@ -1,0 +1,43 @@
+body {
+  font-family: "Avenir Next", "Oxygen", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Avenir Next", "Oxygen", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+
+  &:hover {
+    color: map-get($colors, porange);
+  }
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #bbbbbb;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bbbbbb;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bbbbbb;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bbbbbb;
+}

@@ -1,0 +1,162 @@
+#auth_form {
+  display: flex;
+  height: calc(100vh - 38px);
+  align-items: center;
+
+  .v-custom-select {
+    position: absolute;
+    right: 10px;
+    width: 110px;
+    box-shadow: none;
+    top: 0px;
+  }
+
+  .is_remember{
+    display:flex;
+    align-items:Center;
+
+    label{
+      margin:0px 0px 0px 12px;
+    }
+  }
+
+  a.v-link {
+    float: right;
+    text-decoration: none;
+    margin-right: $m/2;
+    font-size: map-get($fonts, md);
+  }
+  .v-card__actions {
+    padding: 0px;
+  }
+  .v-card__title {
+    font-size: map-get($fonts, xl) - 4;
+    text-align: center;
+    display: block;
+    font-weight: map-get($weight, w-600);
+
+    small {
+      display: block;
+      font-size: map-get($fonts, lg);
+      margin: $m/2 0px;
+      font-weight: 400;
+    }
+
+    span {
+      font-size: map-get($fonts, md);
+      line-height: 1.5em;
+      font-weight: 400;
+      display: block;
+      margin: $m/2 0px;
+    }
+  }
+
+  button.v-btn {
+    margin-top: $m * 2;
+    width: 100%;
+  }
+
+  .v-card-forgot {
+    box-shadow: none;
+  }
+
+  .v-card-body {
+    margin-bottom: 40px;
+  }
+
+  .v-card-withbg {
+    background: none !important;
+  }
+  p {
+    color: map-get($colors, plight_grey);
+    font-size: map-get($fonts, md);
+    text-align: center;
+    margin: $m 0px;
+  }
+  .v-label {
+    color: map-get($colors, plight_grey);
+  }
+  .__social-logins {
+    display: flex;
+    justify-content: space-between;
+    a.v-btn {
+      text-decoration: none;
+      display: inline-block;
+      background: #f6f5f0;
+      border: 1px solid rgba(226, 220, 209, 0.5);
+      height: 50px;
+      width: 95px;
+      padding: 15px 20px;
+      text-align: center;
+      margin: 0px 5px;
+
+      &:hover,
+      &:active {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .v-form {
+    a {
+      text-align: center;
+      display: block;
+      margin: 20px 0px;
+      font-size: map-get($fonts, md);
+      font-weight: 600;
+      text-decoration: none;
+      color: map-get($colors, porange);
+
+      &:hover {
+        color: lighten(map-get($colors, porange), 5%);
+      }
+    }
+  }
+}
+
+#app {
+  .layout-bg {
+    background: url("/assets/bg.jpg") center center no-repeat;
+    background-size: contain;
+  }
+
+  .v-welcome {
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    z-index: 4000;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > div {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h2,
+    p {
+      text-align: center;
+    }
+
+    .v-btn {
+      min-width: 280px;
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    h1 {
+      font-size: map-get($fonts, xl);
+      font-weight: 600;
+      margin: 0px 0px $m 0px;
+      color: map-get($colors, primary);
+    }
+
+    p {
+      font-size: map-get($fonts, lg);
+      margin: 0px 0px $m 0px;
+    }
+  }
+}

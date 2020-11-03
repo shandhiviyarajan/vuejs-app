@@ -1,0 +1,137 @@
+{
+  "message": "Bienvenue",
+  "signup": {
+    "title": "S'inscrire",
+    "desc": "Bienvenue",
+    "name": "Nom",
+    "email": "Email",
+    "password": "Mot de passe",
+    "agreeTerms": "J'accepte les conditions et la politique de confidentialité.",
+    "signUpUsing": "ou inscrivez-vous en utilisant",
+    "success": "Utilisateur créé avec succès!",
+    "error": "La création de l'utilisateur a échoué, veuillez réessayer.!",
+    "updated_success":"User updated successfully !"
+  },
+  "reset": {
+    "reset_password": "réinitialiser le mot de passe",
+    "enter_password": "Entrez le code de confirmation et les nouveaux mots de passe",
+    "new_password": "nouveau mot de passe",
+    "confirm_password": "Confirmez le mot de passe",
+    "verification_code":"Code de vérification",
+    "email_sent":"Email sent to"
+  },
+  "forgot": {
+    "title": "Mot de passe oublié",
+    "desc": "Remplissez votre email et nous vous enverrons un lien pour réinitialiser votre mot de passe",
+    "enterEmail": "Entrez les e-mails"
+  },
+  "login": {
+    "signIn": "Se connecter",
+    "welcome_back": "Nous saluons le retour",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgot_password": "MOT DE PASSE OUBLIÉ ?",
+    "sign_up_using": "ou inscrivez-vous en utilisant",
+    "keep_me_logged_in": "Rester connecté",
+    "error":"Jeton d'autorisation non valide, veuillez vous connecter",
+    "success":"Connexion réussie !",
+    "failed":"La connexion a échoué, veuillez réessayer.",
+    "text":""
+  },
+  "welcome": {
+    "title": "BIENVENUE",
+    "desc": "Il s'agit d'un type d'expérience de location de powerbank différent de ce à quoi vous pourriez être habitué. [Nom de l'entreprise] essaiera de vous synchroniser avec un cycle de repos et de travail plus neutre."
+  },
+  "settings": {
+    "languageSelect": "Paramètres de langue"
+  },
+  "adminLeftBar": {
+    "orders":"Ordres",
+    "listings":"Annonces",
+    "adminListing":"Admin Annonces",
+    "merchantListing":"Merchant Annonces",
+    "technicianListing":"Technician Annonces",
+    "equipments":"Équipements",
+    "powerbanks":"Banques d'alimentation",
+    "stations":"Stations",
+    "settings":"Paramètres"
+  },
+  "language":{
+    "progress_message":"Changement de la langue du système ..."
+  },
+  "profile":{
+    "settings":"Paramètres",
+    "payment":"Paiement",
+    "logout":"Déconnexion"
+  },
+  "buttons": {
+    "continue": "Continuer",
+    "register": "S'inscrire",
+    "login": "S'identifier",
+    "reset": "réinitialiser le mot de passe",
+    "go": "Allons-y",
+    "signin": "Se connecter",
+    "signup": "S'inscrire",
+    "lets_go": "Allons-y",
+    "cancel":"Annuler",
+    "delete":"Supprimer",
+    "logout":"Déconnexion",
+    "edit":"Éditer",
+    "save":"Save",
+    "update":"Update"
+    
+  },
+  "notification": {
+    "title": "Notifications"
+  },
+
+  
+  "roles":{
+    "title":"Ceci est un écran temporaire qui sera supprimé une fois les rôles utilisateur définis!",
+    "admin":"Administrateur",
+    "merchant":"Marchande",
+    "technician":"Technicien"
+  },
+  "navigation":{
+    "settings":"Settings",
+    "equipments":"équipements",
+    "powerbanks":"Powerbanks",
+    "stations":"Stations",
+    "logout":"Se déconnecter",
+    "locations":"Emplacements",
+    "orders":"Orders",
+    "roles_permissions":"Rôles et autorisations",
+    "users":"Utilisatrices",
+    "roles":"Les rôles",
+    "permissions":"Autorisations"
+  },
+
+  "error":{
+    "invalid_email": "Invalid Email",
+    "invalid_email_message": "Please enter valid email",
+    "empty_name": "Empty Name",
+    "empty_name_message": "Please enter name",
+    "empty_password": "Empty Password",
+    "empty_password_message": "Please enter email",
+    "empty_email": "Empty Email",
+    "empty_email_message": "Please enter email",
+    "empty_verification_code":"Please enter the verification code",
+    "password_not_match":"Password didn't match"
+  },
+  "admin":{
+    "edit":"Edit users",
+    "add":"Add new user",
+    "title":"Admin Listing"
+  },
+  "merchant":{
+    "title":"Merchant Listing"
+  },
+  "stations":{
+    "title":"Power Stations",
+    "add":"Add Power station",
+    "confirm_message":"Are you sure to dasu this ?",
+    "error_message":"Error ! Please try again",
+    "updated_message":"Power bank updated !",
+    "save_message":"New Power bank added !"
+  }
+}

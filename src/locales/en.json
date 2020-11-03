@@ -1,0 +1,154 @@
+{
+  "message": "Welcome",
+  "signup": {
+    "title": "Sign Up",
+    "desc": "Welcome",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "agreeTerms": "I agree to the Terms & Privacy Policy.",
+    "signUpUsing": "or Sign Up using",
+    "error": "User creation error, please try again !",
+    "success": "User created successfully !",
+    "updated_success": "User updated successfully !",
+    "image_upload_success": "User image updated successfully !"
+  },
+  "reset": {
+    "reset_password": "Reset Password",
+    "enter_password": "Enter your new password & Confirmation code",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "verification_code": "Verification Code",
+    "email_sent": "Email sent to"
+  },
+  "forgot": {
+    "title": "Forgot Password",
+    "desc": "Don't worry ! Just fill in your email and we'll send you a link to reset your password",
+    "enterEmail": "Enter Emails"
+  },
+  "login": {
+    "signIn": "Sign In",
+    "welcome_back": "Welcome Back",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "FORGOT PASSWORD ?",
+    "sign_up_using": "or Sign Up using",
+    "keep_me_logged_in": "Keep me logged in",
+    "text": "or Sign Up using",
+    "success": "Login Successful !",
+    "failed": "Login failed! enter correct user credentials"
+  },
+  "welcome": {
+    "title": "WELCOME",
+    "desc": "This is a differnet kind of powerbank renting experience from what you might be used to. [Company Name] will try to put you in sync with a more netural rest and work cycle."
+  },
+  "settings": {
+    "languageSelect": "Language Settings"
+  },
+  "adminLeftBar": {
+    "orders": "Orders",
+    "listings": "Listings",
+    "adminListing": "Admin Listing",
+    "merchantListing": "Merchant Listing",
+    "technicianListing": "Technician Listing",
+    "settings": "Settings"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "register": "Register",
+    "login": "Login",
+    "reset": "Reset Password",
+    "go": "Lets Go",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "lets_go": "Lets go",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "logout": "Sign out",
+    "edit": "Edit",
+    "save": "Save",
+    "update": "Update",
+    "view_locations": "View Locations",
+    "sales": "Sales report",
+    "no": "No",
+    "yes": "Yes"
+  },
+  "notification": {
+    "title": "Notifications"
+  },
+  "error": {
+    "invalid_email": "Invalid Email",
+    "invalid_email_message": "Please enter valid email",
+    "empty_name": "Empty Name",
+    "empty_name_message": "Please enter name",
+    "empty_password": "Empty Password",
+    "empty_password_message": "Please enter email",
+    "empty_email": "Empty Email",
+    "empty_email_message": "Please enter email",
+    "empty_verification_code": "Please enter the verification code",
+    "password_not_match": "Password didn't match",
+    "are_you_sure": "Are you sure to delete"
+  },
+  "language": {
+    "progress_message": "Changing system language...."
+  },
+  "profile": {
+    "settings": "Settings",
+    "payment": "Payment",
+    "logout": "Sign out"
+  },
+  "roles": {
+    "title": "This is a temporary screen will be removed after user roles are defined !",
+    "admin": "Administrator",
+    "merchant": "Merchant",
+    "technician": "Technician"
+  },
+  "navigation": {
+    "settings": "Settings",
+    "equipments": "Equipments",
+    "powerbanks": "On going Power Banks",
+    "stations": "Stations",
+    "logout": "Logout",
+    "locations": "Locations",
+    "orders": "Orders",
+    "roles_permissions": "Roles & Permissions",
+    "users": "Users",
+    "roles": "Roles",
+    "permissions": "Permissions",
+    "support": "Support",
+    "faq": "FAQ's",
+    "supportRequest": "Support Requests"
+  },
+  "stations": {
+    "title": "Power Stations List",
+    "add": "Add Power station",
+    "confirm_message": "Are you sure to dasu this ?",
+    "error_message": "Error ! Please try again",
+    "updated_message": "Power bank updated !",
+    "save_message": "New Power bank added !"
+  },
+  "admin": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "Admins Listing"
+  },
+  "users": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "End users Listing"
+  },
+  "merchant": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "Merchants Listing"
+  },
+  "technician": {
+    "edit": "Edit",
+    "add": "Add",
+    "title": "Technicians Listing"
+  },
+  "charts": {
+    "earned": "Earned",
+    "damaged": "Damaged"
+  }
+}

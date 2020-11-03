@@ -1,0 +1,44 @@
+#app {
+  .v-card-summary {
+    padding: 24px 24px;
+    border-radius: 9px;
+    @include _shadow();
+    .col-12 {
+      border-right: thin solid #d8d8d8;
+      display: flex;
+      justify-content: center;
+    }
+    .col-12:last-child {
+      border: none;
+    }
+
+    .summary {
+      padding: 0px 0px 0px 24px;
+      &-title {
+        color: map-get($colors, secondary);
+        font-size: 16px;
+        font-weight: 600;
+      }
+      &-value {
+        font-size: 40px;
+        font-weight: 600;
+        color: map-get($colors, plight_grey);
+      }
+    }
+  }
+
+  .v-revenue-chart {
+    @include _shadow();
+  }
+
+  .overview {
+    .v-custom-select {
+      margin-left: 24px;
+      box-shadow: 0 10px 60px -5px rgba(0, 0, 0, 0.18);
+      font-weight: 500;
+      height: 40px;
+      padding: 8px 24px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+#app {
+  div.all-permissions {
+    ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    .v-input {
+      margin: 0px;
+    }
+    label {
+      text-transform: capitalize;
+    }
+  }
+}

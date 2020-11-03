@@ -1,0 +1,23 @@
+#app {
+  .left-panel {
+    flex: 0 0 18%;
+    max-width: 18% !important;
+    height: 100vh;
+    top: 96px;
+    z-index: 101;
+    background: #fff;
+    position: fixed;
+  }
+  .right-panel {
+    padding-left: 18%;
+    padding: 24px;
+    flex: 0 0 82%;
+    max-width: 82% !important;
+    position: relative;
+    left: 18%;
+    height: calc(100vh - 96px);
+    .v-overlay {
+      display: none;
+    }
+  }
+}

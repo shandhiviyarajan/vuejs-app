@@ -1,0 +1,33 @@
+/**
+System style variables
+ */
+$colors: (
+  "primary": #4273b7,
+  "secondary": #242936,
+  "porange": #ff3e00,
+  "plight": #ffffff,
+  "pgrey": #bbbbbb,
+  "plight_grey": #b9b9b9,
+  "grey-100": #dbdbdb,
+  "success": #4caf50,
+);
+
+$fonts: (
+  "sm": 12px,
+  "md": 16px,
+  "lg": 20px,
+  "xl": 32px,
+);
+
+$weight: (
+  "w-600": 600,
+  "w-400": 400,
+);
+
+$gutters: (
+  "default": 24px,
+);
+
+$m: 20px;
+$p: 20px;
+$nav_height: calc(100vh - 96px);

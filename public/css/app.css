@@ -1,0 +1,13 @@
+body {
+  background: purple; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Avinior'; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*# sourceMappingURL=app.css.map */

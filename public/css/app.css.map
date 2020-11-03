@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,UAAU,EAAC,MAAM;;AAEnB,CAAC;EACC,MAAM,EAAC,GAAG;EACV,OAAO,EAAC,GAAG;EACX,WAAW,EAAC,SAAS;;AAIvB,CAAE;EACA,sBAAsB,EAAE,WAAW;EACnC,uBAAuB,EAAE,SAAS",
+"sources": ["../../src/sass/_normalized.scss"],
+"names": [],
+"file": "app.css"
+}
