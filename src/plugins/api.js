@@ -6,17 +6,17 @@ let http = axios.create();
 
 switch (process.env.NODE_ENV) {
   case "development":
-    http.defaults.baseURL = "http://pb-backend-lb-30e3b7a2fe04ab9c.elb.eu-west-3.amazonaws.com"
+    http.defaults.baseURL = ""
     break;
   case "staging":
-    http.defaults.baseURL = "http://be-pb-stg.beyond.lk"
+    http.defaults.baseURL = ""
     break;
   case "prod":
-    http.defaults.baseURL = "http://pb-backend-lb-30e3b7a2fe04ab9c.elb.eu-west-3.amazonaws.com"
+    http.defaults.baseURL = ""
     break;
 
     default:
-    http.defaults.baseURL = "http://pb-backend-lb-30e3b7a2fe04ab9c.elb.eu-west-3.amazonaws.com"
+    http.defaults.baseURL = ""
 }
 //default app URL//
 http.defaults.baseURL = process.env.VUE_APP_API_URL;
